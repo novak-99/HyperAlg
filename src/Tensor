@@ -1,0 +1,7 @@
+#ifdef __aarch64__
+#include <Arm/Tensor.hpp>
+#endif
+
+#ifdef __arm__
+#include <Arm/Tensor.hpp>
+#endif
